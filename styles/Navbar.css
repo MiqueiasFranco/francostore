@@ -1,42 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Phudu:wght@500&family=Ubuntu:wght@300&family=Uchen&display=swap');
 
-*{
+* {
   margin: 0;
   padding: 0;
 }
-.pesquisa{
+
+.pesquisa {
   display: none;
 }
-a{
+
+a {
   color: white;
   text-decoration: none;
   transition: 0.3s;
 }
+
 li a::after {
   content: ' ';
   width: 0;
   height: 2px;
-  background: #f9004d ;
+  background: #f9004d;
   position: absolute;
   left: 0;
   bottom: -10px;
   transition: 0.5s;
 }
-li a:hover::after{
+
+li a:hover::after {
   width: 100%;
 }
-li{
+
+li {
   letter-spacing: 2px;
   margin-left: 32px;
   position: relative;
 }
-.logo{
+
+.logo {
   font-family: 'Ubunto';
   font-size: 24px;
   text-transform: uppercase;
   letter-spacing: 4px;
 }
-nav{
+
+nav {
   position: relative;
   display: flex;
   align-items: center;
@@ -48,7 +55,8 @@ nav{
   border-radius: 10px;
   height: 8vh;
 }
-.nav-list{
+
+.nav-list {
   display: flex;
   list-style: none;
   margin-left: 10px;
@@ -56,16 +64,18 @@ nav{
 }
 
 
-body{
-  background-image: linear-gradient(to bottom, gray,black);
+body {
+  background-image: linear-gradient(to bottom, gray, black);
 }
-.content{
+
+.content {
   text-align: center;
   text-shadow: 1px 1px 5px black;
   margin-top: 8vh;
   color: white;
 }
-.container{
+
+.container {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -76,7 +86,8 @@ body{
 
 
 }
-.item{
+
+.item {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -92,11 +103,13 @@ body{
   box-shadow: 3px 2px 5px #1c1c1c;
   margin-bottom: 6vh;
 }
-.container:hover > :not(:hover){
+
+.container:hover> :not(:hover) {
   opacity: .4;
   transform: scala(0.9);
 }
-.item a{
+
+.item a {
   border: 1px solid black;
   padding: 10px;
   margin: 5px;
@@ -104,35 +117,38 @@ body{
   vertical-align: middle;
   background-color: rgb(7, 94, 180);
 }
-.item a:hover{
+
+.item a:hover {
   background: black;
   color: white;
 }
-#a{
+
+#item1 {
   background-image: url('https://exitocol.vtexassets.com/arquivos/ids/4815447-800-auto?width=800&height=auto&aspect=true');
-  background-size: 100% 100% ;
+  background-size: 100% 100%;
   background-position: center center;
 }
-#b{
+
+#item2 {
   background-image: url('https://www.thekase.com/on/demandware.static/-/Sites-tk-product/default/dwf266d1c2/38960428/132183_medium.png');
-  background-size: 100% 100% ;
+  background-size: 100% 100%;
   background-position: center center;
 }
-#c{
+
+#item3 {
   background-image: url('https://ipartner.com.ua/image/cache/catalog/imgmainru2_191/clearapple-iphone-11-128-gb-red-krasnij-680x630.jpeg');
-  background-size: 100% 100% ;
+  background-size: 100% 100%;
   background-position: center center;
 }
-#d{
+
+#item4 {
   background-image: url('https://firstmarkt.es/wp-content/uploads/2021/10/iphone-13-pro-max-grafito-3.png');
-  background-size: 100% 100% ;
-   
+  background-size: 100% 100%;
+
 }
-#e{
+
+#item5 {
   background-image: url('https://th.bing.com/th/id/OIP.q9DCMoF6e-pG-y0Hq_9mMQHaHa?pid=ImgDet&rs=1');
-  background-size: 100% 100% ;
+  background-size: 100% 100%;
   background-position: center center;
 }
-
-
-
