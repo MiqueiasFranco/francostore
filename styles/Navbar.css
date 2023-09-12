@@ -89,10 +89,9 @@ body {
 
 .item {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: end;
-  padding: 0;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
   transition: 0.35s;
   cursor: pointer;
   border: 1px solid black;
@@ -100,20 +99,23 @@ body {
   width: 200px;
   border-radius: 10px;
   background: white;
+  color: white;
+  font-family: 'Ubunto';
   box-shadow: 3px 2px 5px #1c1c1c;
+  gap: 1em;
   margin-bottom: 6vh;
 }
 
 .container:hover> :not(:hover) {
   opacity: .4;
-  transform: scala(0.9);
+  transform: scale(0.9);
 }
 
 .item a {
   border: 1px solid black;
   padding: 10px;
   margin: 5px;
-  margin-bottom: -50px;
+  margin-bottom: -12vw;
   vertical-align: middle;
   background-color: rgb(7, 94, 180);
 }
@@ -123,32 +125,28 @@ body {
   color: white;
 }
 
-#item1 {
+#card-1 {
   background-image: url('https://exitocol.vtexassets.com/arquivos/ids/4815447-800-auto?width=800&height=auto&aspect=true');
   background-size: 100% 100%;
-  background-position: center center;
 }
 
-#item2 {
+#card-2 {
   background-image: url('https://www.thekase.com/on/demandware.static/-/Sites-tk-product/default/dwf266d1c2/38960428/132183_medium.png');
   background-size: 100% 100%;
-  background-position: center center;
 }
 
-#item3 {
+#card-3 {
   background-image: url('https://ipartner.com.ua/image/cache/catalog/imgmainru2_191/clearapple-iphone-11-128-gb-red-krasnij-680x630.jpeg');
   background-size: 100% 100%;
-  background-position: center center;
 }
 
-#item4 {
+#card-4 {
   background-image: url('https://firstmarkt.es/wp-content/uploads/2021/10/iphone-13-pro-max-grafito-3.png');
   background-size: 100% 100%;
 
 }
 
-#item5 {
+#card-5 {
   background-image: url('https://th.bing.com/th/id/OIP.q9DCMoF6e-pG-y0Hq_9mMQHaHa?pid=ImgDet&rs=1');
   background-size: 100% 100%;
-  background-position: center center;
 }
