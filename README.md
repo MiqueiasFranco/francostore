@@ -7,7 +7,7 @@
 </ul>
 
 ## Versão para Desktop
-![Ecommerce](https://github.com/MiqueiasFranco/navbar/assets/121680934/f0131e15-8f0c-4947-b40b-68a177be8f2b)
+![Ecommerceatual](https://github.com/MiqueiasFranco/navbar/assets/121680934/1a54b9df-f213-4e64-a7f9-e594f8c156fe)
 
 
 ## Versão para Mobile
