@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Phudu:wght@500&family=Ubuntu:wght@300&family=Uchen&display=swap');
+
+.carrinho {
+    position: fixed;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    top: 0px;
+    right: 0;
+    background-color: #23232e;
+    opacity: 0.9;
+    text-align: center;
+    height: 100vh;
+    width: 20vw;
+    z-index: 10;
+    box-shadow: 0px 0px 2px 0px white;
+    border-radius: 5px;
+    animation-duration: 0.5s;
+    color: white;
+    margin-right: -20vw;
+}
+
+.fechar-carrinho {
+    background-color: #23232e;
+    border: none;
+    padding: 20px;
+}
+
+.produto {
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: black;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+}
+
+.produto img {
+    height: 70px;
+    border-radius: 10px;
+    margin-right: 30px;
+}
+
+.produto p {
+    font-family: 'Ubunto';
+    color: black;
+    margin-bottom: 5px;
+}
+
+.produto button {
+    border: none;
+    color: aliceblue;
+    background-color: dodgerblue;
+    padding: 5px;
+    font-size: 10px;
+}
+
+#preco {
+    color: rgb(19, 192, 19);
+    text-shadow: 1px solid black;
+}
+
+#cor {
+    color: rgb(105, 104, 104);
+}

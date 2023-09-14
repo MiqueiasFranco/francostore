@@ -1,22 +1,25 @@
-.mobile_menu div{
+.mobile_menu div {
   width: 32px;
   height: 2px;
   margin: 8px;
   background: #fff;
 }
-.mobile_menu , .fechar{
+
+.mobile_menu,
+.fechar {
   display: none;
   cursor: pointer;
 }
 
-@media screen and (max-width: 768px){
-  .fechar{
+@media screen and (max-width: 768px) {
+  .fechar {
     display: flex;
     background-color: #23232e;
     border: none;
     bottom: 0;
   }
-  .nav-list{
+
+  .nav-list {
     position: absolute;
     top: 9vh;
     left: 0;
@@ -31,18 +34,52 @@
     animation-duration: 1s;
     margin-left: -100vw;
   }
-  .nav-list li{
+
+  .nav-list li {
     margin-left: 0;
   }
-  .mobile_menu  {
+
+  .mobile_menu {
     display: block;
   }
 }
+
 @keyframes showSidebar {
-  from{margin-left: -100vw;}
-  top{margin-left: -10vw;}
+  from {
+    margin-left: -100vw;
+  }
+
+  top {
+    margin-left: -10vw;
+  }
 }
-@keyframes noSee{
-  from{margin-left: -10vw;}
-  top{margin-left: -100vw;}
+
+@keyframes noSee {
+  from {
+    margin-left: -10vw;
+  }
+
+  top {
+    margin-left: -100vw;
+  }
+}
+
+@keyframes CarrinhoOn {
+  from {
+    margin-right: -20vw;
+  }
+
+  top {
+    margin-right: 0vw;
+  }
+}
+
+@keyframes CarrinhoOf {
+  from {
+    margin-right: 0vw;
+  }
+
+  top {
+    margin-right: -20vw;
+  }
 }

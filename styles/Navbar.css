@@ -95,13 +95,13 @@ body {
   transition: 0.35s;
   cursor: pointer;
   border: 1px solid black;
-  height: 300px;
-  width: 200px;
+  height: 200px;
+  width: 150px;
   border-radius: 10px;
   background: white;
   color: white;
   font-family: 'Ubunto';
-  box-shadow: 3px 2px 5px #1c1c1c;
+  box-shadow: 0px 10px 10px #1c1c1c;
   gap: 1em;
   margin-bottom: 6vh;
 }
@@ -148,5 +148,10 @@ body {
 
 #card-5 {
   background-image: url('https://th.bing.com/th/id/OIP.q9DCMoF6e-pG-y0Hq_9mMQHaHa?pid=ImgDet&rs=1');
+  background-size: 100% 100%;
+}
+
+.produto1 img {
+  background-image: url('https://exitocol.vtexassets.com/arquivos/ids/4815447-800-auto?width=800&height=auto&aspect=true');
   background-size: 100% 100%;
 }
