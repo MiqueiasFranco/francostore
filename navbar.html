@@ -32,7 +32,7 @@
         <li><a href="#">Service</a></li>
         <li><a href="#">About</a></li>
       </ul>
-      <div id="carrinho" class="carrinho">
+      <section id="carrinho" class="carrinho">
         <button onclick="carrinhoOnOf()" class="fechar-carrinho">
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#fff" class="bi bi-x-circle-fill"
             viewBox="0 0 16 16">
@@ -41,11 +41,16 @@
           </svg>
         </button>
         <p>Meu Carrinho</p>
-      </div>
+        <section id="produtocarrinho" class="produtocarrinho">
+
+        </section>
+        <p id="precototal"></p>
+        <button>Finalizar Compra</button>
+      </section>
 
     </nav>
   </header>
-  <div class="banner">
+  <div class="banner" id="banner">
     <img src="images/blackfriday.png" alt="blackfriday imagem">
   </div>
   <input class="pesquisa" placeholder="O que está procurando?">
@@ -58,6 +63,7 @@
   </div>
   <script src="scripts/Navbar.js"></script>
   <script src="scripts/produtos.js"></script>
+  <script src="scripts/funcoescarrinho.js"></script>
 </body>
 
 </html>

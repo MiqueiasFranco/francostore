@@ -2,7 +2,9 @@
 
 .carrinho {
     position: fixed;
-    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     top: 0px;
     right: 0;
     background-color: #23232e;
@@ -16,10 +18,12 @@
     animation-duration: 0.5s;
     color: white;
     margin-right: -20vw;
-    overflow-y: scroll;
 
 }
-
+.carrinho button{
+    padding: 5px;
+    margin: 5px;
+}
 .fechar-carrinho {
     background-color: #23232e;
     border: none;
@@ -37,7 +41,11 @@
     background-color: white;
     margin: 10px;
 }
-
+.produtocarrinho{
+    overflow-y: scroll;
+    height: 70%;
+    margin: 5px;
+}
 .produto img {
     height: 70px;
     border-radius: 10px;
@@ -73,7 +81,7 @@
     margin: 5px;
 }
 
-#preco {
+#preco, #precototal {
     color: rgb(19, 192, 19);
     text-shadow: 1px solid black;
 }
