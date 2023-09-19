@@ -97,12 +97,12 @@ function adicionarAoCarrinho(idProduto) {
 }
 
 function atualizarPrecoCarrinho() {
-    const PrecoCarrinho = document.getElementById('precototal')
+    const PrecoCarrinho = document.getElementById('totalvalor')
     let precototalcarrinho = 0
     for (const produtonocarrinho in idquantidadeproduto) {
         precototalcarrinho += produtos.find((p) => p.id === produtonocarrinho).preco * idquantidadeproduto[produtonocarrinho];
     }
-    PrecoCarrinho.innerText = `Total: $${precototalcarrinho}`;
+    PrecoCarrinho.innerText = ` R$ ${precototalcarrinho}`;
 }
 
 function salvarLocalStorage(chave, informacao) {

@@ -15,7 +15,7 @@ a {
   transition: 0.3s;
 }
 
-li a::after {
+nav li a::after {
   content: ' ';
   width: 0;
   height: 2px;
@@ -26,11 +26,11 @@ li a::after {
   transition: 0.5s;
 }
 
-li a:hover::after {
+nav li a:hover::after {
   width: 100%;
 }
 
-li {
+nav li {
   letter-spacing: 2px;
   margin-left: 32px;
   position: relative;
@@ -109,6 +109,7 @@ body {
 .container:hover> :not(:hover) {
   transform: scale(0.9);
 }
+
 .banner{
   margin-top: 8vw; 
   display: flex;
@@ -119,6 +120,7 @@ body {
   width: 100%;
   background-image: linear-gradient(white,gray) ;
 }
+
 .banner img {
   width:80%;
   height: 100%;

@@ -93,12 +93,20 @@
     border: none;
 }
 
-
-#preco,
 #precototal {
-    color: rgb(19, 192, 19);
-    text-shadow: 1px solid black;
+    display: flex;
+    padding-left: 30px;
+    gap: 20px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    margin: 5px;
 }
+
+#totalvalor{
+    color: green;
+}
+
 
 #cor {
     color: rgb(105, 104, 104);
