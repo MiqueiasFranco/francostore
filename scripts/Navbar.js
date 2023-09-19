@@ -44,4 +44,5 @@ function carrinhoOnOf() {
         banner.style.filter = ''
     }
     atualizarPrecoCarrinho();
+    renderizarProdutoNoCarrinho()
 }

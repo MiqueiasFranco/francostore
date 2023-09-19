@@ -20,10 +20,12 @@
     margin-right: -20vw;
 
 }
-.carrinho button{
+
+.carrinho button {
     padding: 5px;
     margin: 5px;
 }
+
 .fechar-carrinho {
     background-color: #23232e;
     border: none;
@@ -41,11 +43,13 @@
     background-color: white;
     margin: 10px;
 }
-.produtocarrinho{
+
+.produtocarrinho {
     overflow-y: scroll;
     height: 70%;
     margin: 5px;
 }
+
 .produto img {
     height: 70px;
     border-radius: 10px;
@@ -81,7 +85,17 @@
     margin: 5px;
 }
 
-#preco, #precototal {
+#fechar-produto {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: white;
+    border: none;
+}
+
+
+#preco,
+#precototal {
     color: rgb(19, 192, 19);
     text-shadow: 1px solid black;
 }
