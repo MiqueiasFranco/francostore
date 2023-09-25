@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    height: 700px;
+    width: 100vw;
+}
+
+
+.formulario {
+    display: flex;
+    flex-grow: 3;
+    padding: 10px;
+    margin: 30px;
+    gap: 4em;
+}
+
+p {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.dados {
+    background-color: white;
+    flex-grow: calc(1/3);
+    border-radius: 10px;
+    box-shadow: 0.1em 0.3em 5em -2em;
+    font-weight: bold;
+    padding: 20px;
+    margin-bottom: 3px;
+}
+
+.dados div {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+}
+
+.dados-cartao {
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    border: 1px solid rgba(0, 0, 0, 0.137);
+    border-radius: 5px;
+    outline: none;
+    padding: 6px;
+    margin-top: 5px;
+}
+#container-produto-checkout{
+    height: calc(3/4);
+    overflow-y: auto;
+}
+#celula-checkout{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}

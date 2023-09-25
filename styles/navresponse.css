@@ -11,7 +11,7 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px )  {
   .fechar {
     display: flex;
     background-color: #23232e;
@@ -20,7 +20,7 @@
   }
 
   .nav-list {
-    position: absolute;
+    position: fixed;
     top: 9vh;
     left: 0;
     width: 50vh;
@@ -37,11 +37,25 @@
 
   .nav-list li {
     margin-left: 0;
+    margin-bottom: 30px;
   }
 
   .mobile_menu {
     display: block;
   }
+  .container {
+    height: 70vh;
+  }
+  .item p{
+    color: black;
+    background: rgba(255, 255, 255, 0.705);
+    border-radius: 5px;
+    padding: 5px;
+  }
+  nav .carrinho {
+    width: 50vh;
+  }
+  
 }
 
 @keyframes showSidebar {
@@ -61,25 +75,5 @@
 
   top {
     margin-left: -100vw;
-  }
-}
-
-@keyframes CarrinhoOn {
-  from {
-    margin-right: -20vw;
-  }
-
-  top {
-    margin-right: 0vw;
-  }
-}
-
-@keyframes CarrinhoOf {
-  from {
-    margin-right: 0vw;
-  }
-
-  top {
-    margin-right: -20vw;
   }
 }

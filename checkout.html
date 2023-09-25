@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/checkout.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form  action="" class="formulario" id="formulario">
+
+        <section class="dados" id="dados">
+            <div>
+                <p>Seus Dados</p>
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" placeholder="Digite seu nome" required>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" placeholder="exemplo@exemplo.com" id="email">
+            </div>
+            <div>
+                <label for="telefone">Telefone</label>
+                <input type="tel" placeholder="(xx)xxxx-xxxx" id="email">
+            </div>
+        </section>
+
+        <section class="dados" id="pagamento">
+            <div>
+                <p>Pagamento e Entrega</p>
+                <label for="numero-cartao">Numero do Cartão</label>
+                <input type="text" id="numero-cartao" placeholder="1111 1111 1111 1111" required>
+            </div>
+            <section class="dados-cartao">
+                <div>
+                    <label for="cvv">CVV</label>
+                    <input type="text" placeholder="***" id="cvv" required>
+                </div>
+
+                <div>
+                    <label for="data-validade">Data de Validade</label>
+                    <input type="text" placeholder="01/2028" id="data-validade" required>
+                </div>
+            </section class="dados-cartao">
+
+            <div>
+                <label for="endereco">Endereço</label>
+                <input type="text" id="endereco" placeholder="Rua Mato Grosso 121" required>
+            </div>
+            <div>
+                <label for="cep">Cep</label>
+                <input type="text" id="cep" placeholder="035-049" required>
+            </div>
+            <div>
+                <label for="complemento">Complemento</label>
+                <input type="text" id="complemento" placeholder="Próximo a barbearia do zé" required>
+            </div>
+        </section>
+        <section class="dados" id="produtos-checkout">
+            
+            <section id="container-produto-checkout">
+
+            </section>
+            <section id="celula-checkout">
+                <p id="precototal">Total:<span id="totalvalor"></span></p>
+                <button type="submit" >Finalizar Compra</button>
+            </section>
+        </section>
+
+    </form>
+
+    <script src="scripts/checkout.js"></script>
+</body>
+
+</html>
