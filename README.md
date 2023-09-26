@@ -8,6 +8,7 @@
 
 ## Versão para Desktop
 ![EcommerceDesktop](https://github.com/MiqueiasFranco/francostore/assets/121680934/1f9b4e74-f2c1-48a9-a6e6-651e1944ccd5)
+![carrinho](https://github.com/MiqueiasFranco/francostore/assets/121680934/043caf6e-cc0d-44a9-9d1c-c9864cdf54d8)
 
 
 ## Versão para Mobile
