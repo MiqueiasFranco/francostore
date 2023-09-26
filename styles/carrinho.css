@@ -21,6 +21,26 @@
 
 }
 
+@keyframes CarrinhoOn {
+    from {
+        margin-right: -100vw;
+    }
+
+    top {
+        margin-right: 0;
+    }
+}
+
+@keyframes CarrinhoOf {
+    from {
+        margin-right: 0vw;
+    }
+
+    top {
+        margin-right: -100vw;
+    }
+}
+
 .carrinho button {
     padding: 5px;
     margin: 5px;
@@ -45,7 +65,7 @@
 }
 
 .produtocarrinho {
-    overflow-y: scroll;
+    overflow-y: auto;
     height: 70%;
     margin: 5px;
 }
@@ -103,7 +123,7 @@
     margin: 5px;
 }
 
-#totalvalor{
+#totalvalor {
     color: green;
 }
 

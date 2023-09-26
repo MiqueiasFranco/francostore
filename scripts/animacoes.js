@@ -37,7 +37,7 @@ function carrinhoOnOf() {
         banner.style.filter = 'blur(3px)'
     }
     else {
-        Carrinhoid.style.marginRight = '-20vw';
+        Carrinhoid.style.marginRight = '-100vw';
         Carrinhoid.style.animationName = 'CarrinhoOf';
         content.style.filter = ''
         container.style.filter = ''
